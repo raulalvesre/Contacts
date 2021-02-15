@@ -1,7 +1,7 @@
 package org.raul;
 
 import org.raul.phoneBook.PhoneBook;
-import org.raul.ui.mainMenu;
+import org.raul.ui.MainMenu;
 import org.raul.utils.Deserializator;
 import org.raul.utils.Serializator;
 
@@ -17,6 +17,6 @@ public class App {
         }));
 
         contacts = Deserializator.deserializeContacts();
-        mainMenu.start();
+        MainMenu.start();
     }
 }

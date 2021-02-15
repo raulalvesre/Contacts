@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Lister {
 
-    private static final PhoneBook contacts = mainMenu.contacts;
-    private static final Scanner scanner = mainMenu.scanner;
+    private static final PhoneBook contacts = MainMenu.contacts;
+    private static final Scanner scanner = MainMenu.scanner;
 
     static void list() {
         contacts.list();

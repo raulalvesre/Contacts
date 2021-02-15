@@ -11,8 +11,8 @@ import java.util.Scanner;
 
 public class Adder {
 
-    private static final PhoneBook contacts = mainMenu.contacts;
-    private static final Scanner scanner = mainMenu.scanner;
+    private static final PhoneBook contacts = MainMenu.contacts;
+    private static final Scanner scanner = MainMenu.scanner;
 
     static void add() {
         System.out.print("Enter the type (person, organization): ");

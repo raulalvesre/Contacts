@@ -10,8 +10,8 @@ import java.util.regex.Pattern;
 
 public class Searcher {
 
-    private static final PhoneBook contacts = mainMenu.contacts;
-    private static final Scanner scanner = mainMenu.scanner;
+    private static final PhoneBook contacts = MainMenu.contacts;
+    private static final Scanner scanner = MainMenu.scanner;
 
     static void search() {
         System.out.print("Enter search query: ");

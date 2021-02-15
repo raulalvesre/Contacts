@@ -6,7 +6,7 @@ import org.raul.utils.Serializator;
 
 import java.util.Scanner;
 
-public class mainMenu {
+public class MainMenu {
 
     static Scanner scanner = new Scanner(System.in);
     static PhoneBook contacts = App.contacts;

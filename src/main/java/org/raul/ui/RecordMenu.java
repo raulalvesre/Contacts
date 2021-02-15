@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class RecordMenu {
 
-    private static final PhoneBook contacts = mainMenu.contacts;
-    private static final Scanner scanner = mainMenu.scanner;
+    private static final PhoneBook contacts = MainMenu.contacts;
+    private static final Scanner scanner = MainMenu.scanner;
     private static int indexOfRecord;
 
     static void start(int index) {
@@ -28,7 +28,7 @@ public class RecordMenu {
             case "delete":
                 contacts.remove(indexOfRecord);
                 Serializator.serializeContacts();
-                System.out.println("The record removed!");
+                System.out.println("The record removed!\n");
                 break;
             case "menu":
                 System.out.println();
